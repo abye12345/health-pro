@@ -1,0 +1,95 @@
+.footer {
+  background-color: orange;
+  width: 100%;
+  height: 10vh;
+  padding: 5px;
+  text-align: center;
+}
+.contact-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+@media (max-width: 860px) {
+  .contact-form {
+    gap: 5px;
+    display: block;
+  }
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.radio-container input {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.mailto {
+  margin-left: 5px;
+}
+.hours {
+  display: flex;
+  gap: 15px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+ul li:last-child {
+  margin-right: 0;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 860px) {
+  ul li {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .footer {
+    height: 30vh;
+  }
+}

@@ -1,0 +1,21 @@
+.form {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #ccc;
+}
+.form .list {
+  margin: auto;
+  width: 600px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 30%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.lable {
+  display: block;
+  margin-bottom: 20px;
+}

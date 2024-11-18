@@ -1,0 +1,24 @@
+.resource {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+.face-hand {
+  width: 750px;
+  height: 400px;
+}
+.face-hand:hover {
+  opacity: 50%;
+}
+@media (max-width: 960px) {
+  .resource {
+    width: 45%;
+  }
+  .face-hand {
+    width: 300px;
+    height: 200px;
+  }
+}
+.h3 {
+  color: green;
+}

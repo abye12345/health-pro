@@ -1,0 +1,20 @@
+.convient {
+  background-color: aquamarine;
+  display: flex;
+  padding: 30px;
+  column-gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.convient .disc {
+  font-size: 20px;
+}
+.convient .conv-img {
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 960px) {
+  .convient {
+    display: block;
+  }
+}

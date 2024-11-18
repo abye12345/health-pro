@@ -1,0 +1,13 @@
+h4 {
+  color: green;
+}
+.sch {
+  text-align: center;
+}
+.sch-border {
+  width: 60%;
+  height: 60vh;
+  border: 2px solid wheat;
+  margin: auto;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+nav {
+  background-color: skyblue;
+  margin: 0;
+  padding: 5px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: indianred;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+  nav {
+    background-color: black;
+  }
+  nav ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
